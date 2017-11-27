@@ -1,0 +1,42 @@
+*{
+    color: red;
+}
+html {
+    font-size: 16px;
+}
+p:hover{
+    color: green;
+}
+#chosen{
+    color: blue;
+}
+p[class]{
+    color: purple;
+}
+a[href^="https"] {
+    color: brown;
+}
+section p{
+    color: black;
+}
+section > p {
+    color: yellow;
+}
+.1 h1:hover{
+    color: green;
+}
+.2 p::first-letter{
+    color: green;
+}
+p::before{
+    color: green;
+    content:"<";
+}
+p::after{
+    color: green;
+    content:">";
+}
+p {
+    font-family: 'Monoton', cursive;
+    font-size: 1.5em;
+}
